@@ -1,0 +1,17 @@
+postService.findAll([query][, opts]) - GET /posts - Retrieve a selection of post records from the /posts REST endpoint
+
+postService.find(id[, opts]) - GET /posts/:id - Retrieve a post record from the /posts REST endpoint by its primary key
+
+postService.create(record[, opts]) - POST /posts - Create one new post record via the /posts REST endpoint
+
+postService.createMany(records[, opts]) - POST /posts - Create many new post records via the /posts REST endpoint
+
+postService.update(id, props[, opts]) - PUT /posts/:id - Update a single post record via the /posts REST endpoint
+
+postService.updateAll(props[, query][, opts]) - PUT /posts - Perform a single update against multiple post records via the /posts REST endpoint
+
+postService.updateMany(records[, opts]) - PUT /posts - Perform multiple individual updates against post records via the /posts REST endpoint
+
+postService.destroy(id[, opts]) - DELETE /posts:id - Delete a post record via the /posts REST endpoint by its primary key
+
+postService.destroyAll([query][, opts]) - DELETE /posts - Delete a selection of post records via the /posts REST endpoint
